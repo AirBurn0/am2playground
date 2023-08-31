@@ -17,6 +17,10 @@ This repository, once again, is used for community contributing localization, cr
 Although the license below forbids you to create your work based on mine (because I simply don’t see the point in this - just ask me to do it, and if I ever abandon the project, I will just change the license so you will allowed to), creating new localization files (.lang) and textures is not derived from my work (if it is, consider that you have rights to it), and generally very welcome.
 
 ## Other FAQ
+### <b>Q</b>: Where is the source-code? Is the project not open-source?
+
+  <b>A</b>:The fact is that I messed up the code a lot, and without refactoring it seems unreadable and even can offend someone (I shouldn't have added jokes to the code). When I'm done with the refactoring, I'll release the project's source code to this repository. But until then, the project is not open source. You can still decompile the sources at your own risk (to see the code that even worse than in original AM2 repo) if you're interested.
+  
 ### <b>Q</b>: Is it compatible with other AM2 forks like [TCLProject](https://github.com/TCLProject/ArsMagica2-5) or [ToCraft](https://github.com/ToCraft/ArsMagica2) ones?
 
   <b>A</b>: I designed the addon in such a way that it is compatible with almost every version of AM2 I know for this moment. And as far as I know, it is. But since I'n developing my addon based on Mithion's original work, there may be bugs with other versions, and their reporting is appreciated.
