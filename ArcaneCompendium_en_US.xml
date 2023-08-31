@@ -222,12 +222,6 @@
         <relatedEntries>wizardChalk,warding_candle,am2pg:hellScythe@0</relatedEntries>
         <trigger>potionInfusion_random</trigger>
       </subitem>
-      <subitem id="potionInfusion_maximization">
-        <name>Potion Infsuion (Extend Effect)</name>
-        <desc>Using High Essence Core and the Maximization spell, you can extend and buff all effects in the potion.</desc>
-        <relatedEntries>wizardChalk,warding_candle,am2pg:hellScythe@0</relatedEntries>
-        <trigger>potionInfusion_maximization</trigger>
-      </subitem>
       <subitem id="potionInfusion_clear">
         <name>Potion Infsuion (Clear Effect)</name>
         <desc>Using Milk and the Dispel spell, you can clear first effects in the potion.</desc>
@@ -419,4 +413,10 @@
     </subitem>
     </ritual>
   </structures>
+  <bosses>
+    <boss id="PortalDemon" mod="AWWayofTime"> <!-->Blood Magic<!-->
+      <name>Portal Demon</name>
+      <desc>A demon, which is also a portal to the world of wars, which summons a specially trained demonic squad to the battlefield. It requires a special ritual to summon, and when destroyed it drops a white orb of infinity containing knowledge of blood magic. !l Recommended level: Any, just dodge.</desc>
+    </boss>
+  </bosses>
 </compendium>
