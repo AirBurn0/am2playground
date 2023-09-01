@@ -3,7 +3,7 @@ Public repository for AM2PlayGround (Ars Magica 2 1.7.10 addon) resources: local
 
 ## What it is?
 
-AM2PlayGround, or AM2PG for short, is a quick-made Ars Magica 2 Addon, as far as i know, fisrt of any among its own (Ima adding spell components, dude. New spell components!) (except [this](https://github.com/Mithion/APIDemoMod) thing; This is made along before I made my own, but as far as you can see - it has no use)
+AM2PlayGround, or AM2PG for short, is a quick-made Ars Magica 2 Addon, as far as I know, fisrt of any among its own (Ima adding spell components, dude. New spell components!) (except [this](https://github.com/Mithion/APIDemoMod) thing; This is made along before I made my own, but as far as you can see - it has no use)
 
 ### Main and only goal of this addon:
 * Make AM2 expirience more funny, arcane, long and less torture.
@@ -19,7 +19,7 @@ Although the license below forbids you to create your work based on mine (becaus
 ## Other FAQ
 ### <b>Q</b>: Where is the source-code? Is the project not open-source?
 
-  <b>A</b>:The fact is that I messed up the code a lot, and without refactoring it seems unreadable and even can offend someone (I shouldn't have added jokes to the code). When I'm done with the refactoring, I'll release the project's source code to this repository. But until then, the project is not open source. You can still decompile the sources at your own risk (to see the code that even worse than in original AM2 repo) if you're interested.
+  <b>A</b>: The fact is that I messed up the code a lot, and without refactoring it seems unreadable and even can offend someone (I shouldn't have added jokes to the code). When I'm done with the refactoring, I'll release the project's source code to this repository. But until then, the project is not open source. You can still decompile the sources at your own risk (to see the code that even worse than in original AM2 repo) if you're interested.
   
 ### <b>Q</b>: Is it compatible with other AM2 forks like [TCLProject](https://github.com/TCLProject/ArsMagica2-5) or [ToCraft](https://github.com/ToCraft/ArsMagica2) ones?
 
