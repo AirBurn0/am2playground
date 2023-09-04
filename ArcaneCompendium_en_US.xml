@@ -8,12 +8,12 @@
     </shape>
     <shape id="Multiply">
       <name>Multiply</name>
-      <desc>This form is discovered by the Archmage in another universe. This manageably splits your spell into three, an additional two per #5Procs#0 modifier. It works quite well with projectiles, but somehow... strange with other shape types. !d #4DO NOT EVEN TRY#0 to combine #5Formation#0 and #5Multiply#0 one after the other. Yes, it will work as written here and definitely will be fun, but it can and mostly will cause some performance issues very quickly.</desc>
+      <desc>This form is discovered by the Archmage in another universe. This manageably splits your spell into three, an additional two per #5Procs#0 modifier. It works quite well with projectiles, but somehow... strange with other shape types. !p #4DO NOT EVEN TRY#0 to combine #5Formation#0 and #5Multiply#0 one after the other. Yes, it will work as written here and definitely will be fun, but it can and mostly will cause some performance issues very quickly.</desc>
       <modifiedBy>PROCS</modifiedBy>
     </shape>
     <shape id="Formation">
       <name>Formation</name>
-      <desc>This form is discovered by the Archmage in another universe. This splits your spell into two and an additional two per every #5Procs#0 modifier, forming a perfect polygon around you, more like how AoE works. It works quite well with projectiles, but somehow... strange with other shape types. It also provides some rotation path, therefore considered chanelled. !d #4DO NOT EVEN TRY#0 to combine #5Formation#0 and #5Multiply#0 one after the other. Yes, it will work as written here and definitely will be fun, but it can and mostly will cause some performance issues very quickly.</desc>
+      <desc>This form is discovered by the Archmage in another universe. This splits your spell into two and an additional two per every #5Procs#0 modifier, forming a perfect polygon around you, more like how AoE works. It works quite well with projectiles, but somehow... strange with other shape types. It also provides some rotation path, therefore considered chanelled. !p #4DO NOT EVEN TRY#0 to combine #5Formation#0 and #5Multiply#0 one after the other. Yes, it will work as written here and definitely will be fun, but it can and mostly will cause some performance issues very quickly.</desc>
       <modifiedBy>PROCS</modifiedBy>
     </shape>
     <shape id="They">
@@ -23,17 +23,17 @@
     </shape>
     <shape id="Distant">
       <name>Distant</name>
-      <desc>If you can teleport right to the mark, why can you teleport... only your spells? Although Not all spells can be teleported using this method.</desc>
+      <desc>If you can teleport right to the mark, why can you teleport... only your spells? Although not all spells can be teleported using this method.</desc>
       <modifiedBy/>
     </shape>
     <shape id="Contingency_Tick">
       <name>Contingency: Tick</name>
-      <desc>This is a gift brought back by the Archmage from a parallel universe, where it is also known as the "Switch", but works a little differently. Allows you to maintain the effect of the spell almost permanently, as long as you have enough mana. This can be achieved in several different ways, but this is a more controlled and passive way. !d This contingency procs every tick, costing mana to cast the spell and some mana to maintain the effect, and will be automatically canceled when there is not enough mana. !d You can only have one contingency active at a time.</desc>
+      <desc>This is a gift brought back by the Archmage from a parallel universe, where it is also known as the "Switch", but works a little differently. Allows you to maintain the effect of the spell almost permanently, as long as you have enough mana. This can be achieved in several different ways, but this is a more controlled and passive way. !d This contingency procs every tick, costing mana to cast the spell and some mana to maintain the effect, and will be automatically canceled when there is not enough mana.</desc>
       <modifiedBy>PROCS</modifiedBy>
     </shape>
     <shape id="Contingency_Delay">
       <name>Contingency: Delay</name>
-      <desc>This is a gift brought back by the Archmage from a parallel universe. This form is needed to easily achieve delayed cast. !d This contingency procs after some delay and only once, not costing additional mana. Delay time can be extended if #5Duration#0 modifier is applied. !d You can only have one contingency active at a time.</desc>
+      <desc>This is a gift brought back by the Archmage from a parallel universe. This form is needed to easily achieve delayed cast. !d This contingency procs after some delay and only once, not costing additional mana. Delay time can be extended if #5Duration#0 modifier is applied.</desc>
       <modifiedBy>PROCS</modifiedBy>
     </shape>
   </shapes>
@@ -118,7 +118,7 @@
     </modifier>
     <modifier id="Nolla">
       <name>Nolla</name>
-      <desc>This modifier is discovered by the Archmage in another universe, after a series of painful trials. It was worth it - this modifier reduces the duration of the spell to zero. !d Happy Noiting! !d Note that this will do #4NOTHING#0 to the projectile and such shapes, because they have no duration, or it isn't modifiable.#0</desc>
+      <desc>This modifier is discovered by the Archmage in another universe, after a series of painful trials. It was worth it - this modifier reduces the duration of the spell to zero. !d Happy Noiting! !p Note that this will do #4NOTHING#0 to the projectile and such shapes, because they have no duration, or it isn't modifiable.#0</desc>
       <modifies>DURATION</modifies>
     </modifier>
     <modifier id="Diabolic">
