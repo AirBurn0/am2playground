@@ -44,7 +44,7 @@ Although the license below forbids you to create your work based on mine (becaus
 
   If it's localization file, fork this project, do some git magic, make pull request with localization file added.
 
-  If it's bug report - make a new issue with detailed info provided: crash log, situation conditions (that I can actually reprthe faces of your friendsoduce bug by myself, debug and finally fix it) and some additional info like screenshots will not be superfluous.
+  If it's bug report - make a new issue with detailed info provided: crash log, situation conditions (that I can actually reproduce bug by myself, debug and finally fix it) and some additional info like screenshots will not be superfluous.
 
   If it's idea suggestion - create a new issue with detailed information about what do you want me to add (what's it, how it must work, etc.), and why must I actually spent my time doing it instead of adding something else. Resources like models and textures if you wanted something complex is appreciated as well.
   
