@@ -35,6 +35,11 @@ Although the license below forbids you to create your work based on mine (becaus
 ### <b>Q</b>: With which mods there is an iteration?
 
   <b>A</b>: For now, it's Thaumcraft and Baubles (by Azanor), Thaumic Tinkerer (by Pixlepix), Forbidden Magic (by SpitefulFox), Blood Magic (by WayofTime), Botania (by Vazkii), Aether-Legacy (by The-Aether-Team), Traveller's Gear (by BluSunrize). Some of compatabilities is more global, like Thaumcraft one, some - less, like Aether one. I'm currently planning Tinker's Construct and Avaritia integration, and maybe more Botania stuff.
+### <b>Q</b>: Why it's incompatable with Alfheim?
+
+  <b>A</b>: For now, some of my addon's content works REALLY WIERD with Alfheim, so I decided to... Disable Alfheim.
+  Will I ever fix it? Who knows. I don't see the way of it for now. 
+  If you wish to play with Alfheim, my only recommendation here - remove addon from mods folder (not a big loss, really).
 ### <b>Q</b>: Can you make an integration for X?
 
   <b>A</b>: As long as it's not an Alfheim, and mod is intresting enough - sure. There is one problem tho - if I haven't integrated with X yet, and didn't plan to, then I simply don't know about the existence of this mod, or about what specific content needs to be added so that playing with AM2 and X can be more fun.
