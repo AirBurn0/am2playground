@@ -1,0 +1,48 @@
+#spell parts
+#shapes
+am2.spell.multiply=Multiply
+am2.spell.formation=Formation
+am2.spell.missile=Missile
+am2.spell.they=They
+am2.spell.distant=Distant
+am2.spell.contingency_tick=Contingency: Tick
+am2.spell.contingency_delay=Contingency: Delay
+#components
+am2.spell.meltarmor=Melt Armor
+am2.spell.debug=Debug
+am2.spell.novavortex=Nova Vortex
+am2.spell.netherintervention=Nether Intervention
+am2.spell.crossdimensionalintervention=Cross-Dimensional Intervention
+am2.spell.voiddamage=Void Damage
+am2.spell.clearcontingency=Clear Contingency
+am2.spell.repair=Repair
+am2.spell.manaconduction=Mana Conduction
+am2.spell.trigger=Trigger
+am2.spell.song=Song
+am2.spell.randomdamage=Random Damage
+am2.spell.maximization=Maximization
+am2.spell.blooddevastation=Blood Devastation
+am2.spell.outerdamage=Outer Damage
+am2.spell.fluxdisease=Flux Disease
+#modifiers
+am2.spell.sacrament=Sacrament
+am2.spell.manareduction=Mana Reduction
+am2.spell.homing=Homing
+am2.spell.tortoise=Tortoise
+am2.spell.nolla=Nolla
+am2.spell.diabolic=Diabolic
+am2.spell.ethereal=Ethereal
+am2.spell.level=Level
+am2.spell.note=Note
+am2.spell.eldritchmind=Eldritch Mind
+#talents
+am2.spell.manaregenarch=Archmage Mana Regen
+am2.spell.atronach=Atronach
+am2.spell.etheriuminjection=Etherium Injection
+am2.spell.etheriumchannels=Etherium Channels
+am2.spell.advancedspellscribing=Advanced Spellscribing
+#chat
+am2.affinity.enderTPFailed=Oopsie...
+#imbuements
+am2.tooltip.afd=Additional Fire Damage
+am2.tooltip.lhr=Reaper's Autumn

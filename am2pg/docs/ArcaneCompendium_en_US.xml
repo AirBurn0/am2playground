@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<compendium>
+  <shapes>
+    <shape id="Missile">
+      <name>Missile</name>
+      <desc>Once you understand that the projectile is almost the most convenient form for casting a spell, you may notice that in some situations it works quite strangely. And to get more control over the situation, you invented a brand-new form: Missile. Works almost like a projectile, except built-in auto-aim function and some additional features.</desc>
+      <modifiedBy>SPEED,GRAVITY,BOUNCE,DURATION,PIERCING,HOMING,TARGET_NONSOLID_BLOCKS</modifiedBy>
+    </shape>
+    <shape id="Multiply">
+      <name>Multiply</name>
+      <desc>This form is discovered by the Archmage in another universe. This manageably splits your spell into three, an additional two per #5Procs#0 modifier. It works quite well with projectiles, but somehow... strange with other shape types. !p #4DO NOT EVEN TRY#0 to combine #5Formation#0 and #5Multiply#0 one after the other. Yes, it will work as written here and definitely will be fun, but it can and mostly will cause some performance issues very quickly.</desc>
+      <modifiedBy>PROCS</modifiedBy>
+    </shape>
+    <shape id="Formation">
+      <name>Formation</name>
+      <desc>This form is discovered by the Archmage in another universe. This splits your spell into two and an additional two per every #5Procs#0 modifier, forming a perfect polygon around you, more like how AoE works. It works quite well with projectiles, but somehow... strange with other shape types. It also provides some rotation path, therefore considered chanelled. !p #4DO NOT EVEN TRY#0 to combine #5Formation#0 and #5Multiply#0 one after the other. Yes, it will work as written here and definitely will be fun, but it can and mostly will cause some performance issues very quickly.</desc>
+      <modifiedBy>PROCS</modifiedBy>
+    </shape>
+    <shape id="They">
+      <name>They</name>
+      <desc>They WILL regret!.. Or may you...</desc>
+      <modifiedBy>TARGET_NONSOLID_BLOCKS</modifiedBy>
+    </shape>
+    <shape id="Distant">
+      <name>Distant</name>
+      <desc>If you can teleport right to the mark, why can you teleport... only your spells? Although not all spells can be teleported using this method.</desc>
+      <modifiedBy/>
+    </shape>
+    <shape id="Contingency_Tick">
+      <name>Contingency: Tick</name>
+      <desc>This is a gift brought back by the Archmage from a parallel universe, where it is also known as the "Switch", but works a little differently. Allows you to maintain the effect of the spell almost permanently, as long as you have enough mana. This can be achieved in several different ways, but this is a more controlled and passive way. !d This contingency procs every tick, costing mana to cast the spell and some mana to maintain the effect, and will be automatically canceled when there is not enough mana.</desc>
+      <modifiedBy>PROCS</modifiedBy>
+    </shape>
+    <shape id="Contingency_Delay">
+      <name>Contingency: Delay</name>
+      <desc>This is a gift brought back by the Archmage from a parallel universe. This form is needed to easily achieve delayed cast. !d This contingency procs after some delay and only once, not costing additional mana. Delay time can be extended if #5Duration#0 modifier is applied.</desc>
+      <modifiedBy>PROCS</modifiedBy>
+    </shape>
+  </shapes>
+  <components>
+    <component id="Debug">
+      <name>Debug</name>
+      <desc>May help you to obtain some information about the world, may do not. Sneaking while casting spell will show the NBT, if it exists.</desc>
+      <modifiedBy/>
+    </component>
+    <component id="Repair">
+      <name>Repair</name>
+      <desc>Fire guardian's ability to reduce armor durability is a nuisance. Of course, sometimes you can just find unbreakable armor, but this is not always possible. Anyway, since spells can break armor, why can't they repair it? After researching this question, you found out that, in fact, they can. This is somewhat similar to healing living beings, only this time it is necessary to "heal" a slightly different type of matter. You can also use this spell to repair a broken item in your hand. The amount of mana spent does not depend on the number of items that need to be repaired, but mana will not be spent if there is nothing to repair. Durability repaired depends on #5Healing#0 modifier.</desc>
+      <modifiedBy>HEALING</modifiedBy>
+    </component>
+    <component id="Trigger">
+      <name>Trigger</name>
+      <desc>Sometimes it's quite usefull to imitate fingertips touch, or maybe the voice of yours. Very strange magic with lots of conflictingly expected consequences.</desc>
+      <modifiedBy/>
+    </component>
+    <component id="VoidDamage">
+      <name>Void Damage</name>
+      <desc>An ancient spell that the archmage used to destroy everything he didn't like. It turned out that it was not necessary to be an archmage to use it. Damage ignores armor protection at the cost of a large amount of mana spent on breaking space, and if used carelessly, it can permanently erase some things from this world. I wonder what will happen with bedrock?</desc>
+      <modifiedBy>DAMAGE</modifiedBy>
+    </component>
+    <component id="Song">
+      <name>Song</name>
+      <desc>[WIP LORE] Magic sounds</desc>
+      <modifiedBy>SOUND,VELOCITY_ADDED</modifiedBy>
+    </component>
+    <component id="RandomDamage">
+      <name>Random Damage</name>
+      <desc>[WIP LORE] Really random.</desc>
+      <modifiedBy/>
+    </component>
+    <component id="ClearContingency">
+      <name>Clear Contingency</name>
+      <desc>[WIP LORE] Does what it says.</desc>
+      <modifiedBy/>
+    </component>
+    <component id="NovaVortex">
+      <name>Nova Vortex</name>
+      <desc>By studying the anatomy of Mana Creepers, you learned how to concentrate mana into a whirlwind. Isn't it easier than summoning one and then making him explode?</desc>
+      <modifiedBy/>
+    </component>
+    <component id="NetherIntervention">
+      <name>Nether Intervention</name>
+      <desc>[WIP LORE] Why so, Mithion?</desc>
+      <modifiedBy/>
+    </component>
+    <component id="CrossdimensionalIntervention">
+      <name>Crossdimensional Intervention</name>
+      <desc>[WIP LORE] Neptune sagashite! (okay this part isn't WIP)</desc>
+      <modifiedBy/>
+    </component>
+    <component id="Maximization">
+      <name>Maximization</name>
+      <desc>[WIP LORE] Buffs your buffs!</desc>
+    </component>
+    <component id="BloodDevastation" mod="AWWayofTime"> <!-->Blood Magic<!-->
+      <name>Blood Devastation</name>
+      <desc>[WIP LORE] Bloody stream...</desc>
+    </component>
+    <component id="OuterDamage" mod="Thaumcraft"> <!-->Thaumcraft<!-->
+      <name>Outer Damage</name>
+      <desc>[WIP LORE] Makes damage like an Eldritch Guardian</desc>
+    </component>
+    <component id="FluxDisease" mod="Thaumcraft"> <!-->Thaumcraft<!-->
+      <name>Flux Disease</name>
+      <desc>[WIP LORE] not a redstone one.</desc>
+    </component>
+  </components>
+  <modifiers>
+    <modifier id="Homing">
+      <name>Homing</name>
+      <desc>Not too long ago, you discovered that a projectile always had a hidden auto-aiming potential (much like a chain). As soon as you were able to find this, a new modifier was obtained. It adds a constantly 15 blocks range for Projectile to target nearest creature, or additional 4 blocks per modifier for Missile.</desc>
+      <modifies>HOMING</modifies>
+    </modifier>
+    <modifier id="Tortoise">
+      <name>Tortoise</name>
+      <desc>Sometimes you just need to make your spell speed a little... less. And you figured out how to deal with it. Each modifier reduces the speed by a quarter and additionally increases the duration. !d Note that applying this twice means the total speed will be 3/4 * 3/4 = 9/16. And if applied to something that has no speed at all, it will only increase the duration...</desc>
+      <modifies>SPEED,DURATION</modifies>
+    </modifier>
+    <modifier id="Nolla">
+      <name>Nolla</name>
+      <desc>This modifier is discovered by the Archmage in another universe, after a series of painful trials. It was worth it - this modifier reduces the duration of the spell to zero. !d Happy Noiting! !p Note that this will do #4NOTHING#0 to the projectile and such shapes, because they have no duration, or it isn't modifiable.#0</desc>
+      <modifies>DURATION</modifies>
+    </modifier>
+    <modifier id="Diabolic">
+      <name>Diabolic</name>
+      <desc>Family technique of the hell lords. Buffs all your spells in hellish realms, especially in the Nether, but also weakens them in others.</desc>
+      <modifies>RANGE,RADIUS,DAMAGE,DURATION,HEALING</modifies>
+    </modifier>
+    <modifier id="Ethereal">
+      <name>Ethereal</name>
+      <desc>Interdimensional sage's most-used modifier. Make spells stronger in all dimensions, especially in the End, except the overworld, in which spells will be weakened. Maybe somehow related to Planeptune?</desc>
+      <modifies>RANGE,RADIUS,DAMAGE,DURATION,HEALING</modifies>
+    </modifier>
+    <modifier id="Level">
+      <name>Level</name>
+      <desc>One day, the archmage visited another reality in which he was pushed to fight the Council of Magic in the Chaos Trials. In the closet with clothes, he found an interesting robe, which gave him more strength, the more enemies he killed. Upon his return, he created a modifier that grants power in the same way, but #aexperience#0 is required to work in this reality.</desc>
+      <modifies>RANGE,RADIUS,DAMAGE,DURATION,HEALING</modifies>
+    </modifier>
+    <modifier id="ManaReduction">
+      <name>Mana Reduction</name>
+      <desc>Have you ever wondered how to reduce the mana cost of a spell? Surely it can be lowered as a result of optimizing your spell, but what if it is already optimized, but the mana cost is still too high? There are several ways to overcome this, but after some research, you will find that infusing your spell with #5Liquid Etherium#0 can increase your mana usage efficiency and thus lower your mana cost. Note that applying this twice means the total mana will be reduced to 1/2 * 1/2 = 1/4.</desc>
+      <modifies>MANA</modifies>
+    </modifier>
+    <modifier id="Note">
+      <name>Note</name>
+      <desc>Song modifier, that imitates Note block. To create such magic, some magical musical instrument is needed. </desc>
+      <modifies>SOUND</modifies>
+    </modifier>
+    <modifier id="EldritchMind" mod="Thaumcraft"> <!-->Thaumcraft<!-->
+      <name>Eldritch Mind</name>
+      <desc>[WIP LORE] The reason why the crimson cult is so strong</desc>
+      <modifies>RANGE,RADIUS,DAMAGE,DURATION</modifies>
+    </modifier>
+  </modifiers>
+  <talents>
+    <talent id="AdvancedSpellscribing">
+      <name>Advanced Spellscribing</name>
+      <desc>[WIP LORE] +1 Lunar.</desc>
+    </talent>
+    <talent id="Atronach">
+      <name>Atronach</name>
+      <desc>[WIP LORE] Turns off mana regen, but gains x10 mana pool and maybe something else.</desc>
+    </talent>
+    <talent id="EtheriumChannels">
+      <name>Etherium Channels</name>
+      <desc>[WIP LORE] Allows you to gain manaregen while standing in #5Liquid Etherium#0.</desc>
+    </talent>
+    <talent id="EtheriumInjection">
+      <name>Etherium Injection</name>
+      <desc>[WIP LORE] Allows you to gain Clarity while standing in #5Liquid Etherium#0.</desc>
+    </talent>
+    <talent id="ManaRegenArch">
+      <name>Mana Regen Arch</name>
+      <desc>[WIP LORE] Just another mana regen upg.</desc>
+    </talent>
+  </talents>
+  <items>
+    <item id="am2pg:xylophone@0">
+      <name>Xylophone</name>
+      <desc>Sometimes, wizards just wanted to... Chill. And Jukeboxes and Note blocks are just perfect for that. But as magician, you determine yourself to make your own music just by using #3air#0 magic. So-called Xylophone is just imitating various notes manipulating magic, rather than really making sound itself.</desc>
+      <relatedEntries>Note</relatedEntries>
+    </item>
+    <item id="HellsDomain">
+      <name>Hell's Domain</name>
+      <desc>Magical stuff, made of substances found in Nether, with a little help of magic.</desc>
+      <subitem id="am2pg:resource@1">
+        <name>Sunstone Alloy</name>
+        <desc>Sunstone is perfect magic capacitor and stabilizer, rather than provider and emiter. It rarely found in lava lakes, among the obsidian. It could be a great magical material to create, but there's one thing: it's extremely fragile, and even mixing it with common metals like iron makes it even worse. Solution cames up when you think about soft metal with high magic compatibility: gold. Since its magical properties, only some catalyst like purified vinteum and some magic energy is required to make a perfect magic alloy, superior in properties compared to #5Thaumium#0, or maybe even #2Terrasteel#0.</desc>
+        <relatedEntries>itemOre@6,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="am2pg:hellScythe@0">
+        <name>Hell Scythe</name>
+        <desc>Gift of the ancients, in exchange for offerings and sacrifices. Has incredible unknown magical potential, rather than the usual sharpness.</desc>
+      </subitem>
+    </item>
+    <item id="InvadersMagitech">
+      <name>Invaders Magitech</name>
+      <desc>Invaders from other realms of reality offers you some noticeable magical gears.</desc>
+      <subitem id="am2pg:resource@2">
+        <name>Moonlight Hide</name>
+        <desc>Unlike Sunstone, moonstone is excellent magic provider and emiter, that has a lot of other usable properties. One of them is an incredibly low weight, most likely due to its cosmic nature. The most logical decision in this situation was to make a fabric out of it, in terms of properties inferior only to living clothes from the blood of the gods.</desc>
+        <relatedEntries>itemOre@7,essence_refiner</relatedEntries>
+      </subitem>
+      <subitem id="am2pg:grimoire@0">
+        <name>Grimoire</name>
+        <desc>The spellbooks themselves are good enough, but still not the best. If #5Arcane Spellbook#0 was so good, where is #5Arcane Spellbook 2#0? Well, here it is: #5Grimoire#0 of the ancient masters. It doesn't only store spells and provides a huge amount of space to store them, but even allows you to quickly switch spell presets. Furthermore, it can serve as a better version of the #5Inscription Table#0. Also, fully customizable. Holding it with your bare hands, you feel the old pain slowly goes away...</desc>
+      </subitem>
+    </item>
+    <item id="am2pg:resource@0">
+      <name>Void Paradox</name>
+      <desc>A strange matter that appeared when trying to tear the space at the location of bedrock. Pulsating with strange void energy. I wonder what it is for?</desc>
+      <relatedEntries>VoidTouch</relatedEntries>
+    </item>
+  </items>
+  <structures>
+    <ritual id="potionInfusion_overview">
+      <name>Alchemical Infusion</name>
+      <desc>This group of rituals is aimed at the manipulation of a liquid essence, better known as a "potion". Any effect for which an Hourglass Ritual is applicable can be added to a potion in a brewing stand by using a spell, an item listed in the Hourglass Ritual, and a special ritual described in this section.</desc>
+      <subitem id="potionInfusion_random">
+        <name>Potion Infsuion (Random Effect)</name>
+        <desc>Using Nether Wart and the Random Damage spell, you can add any existing effect to the potion randomly.</desc>
+        <relatedEntries>wizardChalk,warding_candle,am2pg:hellScythe@0</relatedEntries>
+        <trigger>potionInfusion_random</trigger>
+      </subitem>
+      <subitem id="potionInfusion_clear">
+        <name>Potion Infsuion (Clear Effect)</name>
+        <desc>Using Milk and the Dispel spell, you can clear first effects in the potion.</desc>
+        <relatedEntries>wizardChalk,warding_candle,am2pg:hellScythe@0</relatedEntries>
+        <trigger>potionInfusion_clear</trigger>
+      </subitem>
+      <subitem id="potionInfusion_heal">
+        <name>Potion Infsuion (Instant Heal)</name>
+        <desc>Using Aum and the Heal spell, you can add healing effect to potion.</desc>
+        <relatedEntries>wizardChalk,warding_candle,am2pg:hellScythe@0</relatedEntries>
+        <trigger>potionInfusion_heal</trigger>
+      </subitem>
+      <subitem id="potionInfusion_harm">
+        <name>Potion Infsuion (Instant Damage)</name>
+        <desc>Using Lapis Lazuli and the Magic Damage spell, you can add harming effect to potion.</desc>
+        <relatedEntries>wizardChalk,warding_candle,am2pg:hellScythe@0</relatedEntries>
+        <trigger>potionInfusion_harm</trigger>
+      </subitem>
+      <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+    </ritual>
+    <ritual id="callOfHell_overview">
+      <name>Call of Hell</name>
+      <desc>[WIP LORE] These rituals must be preformed in Nether. Most Of them.</desc>
+      <subitem id="hell_reapers_song">
+        <name>Hell Reaper's Song</name>
+        <desc>[WIP LORE] This one gives #5Hell Scythe#0.</desc>
+        <relatedEntries>wizardChalk,warding_candle,am2pg:hellScythe@0</relatedEntries>
+        <trigger>hellReapersSong</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_hellCow">
+        <name>Hellspawn Call (Hell Cow)</name>
+        <desc>Summons Hell Cow from their homeland to Nether. But there is a catch: first you need to somehow get the #5Hell Cow's Horn#0.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_hellCow</trigger>
+      </subitem>
+      <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+    </ritual>
+    <ritual id="callOfHell_overview" mod="AWWayofTime"> <!-->Blood Magic<!-->
+      <subitem id="damnedMobilization">
+        <name>Hellspawn War Mobilization</name>
+        <desc>Summons the higher demon "Elemental Portal Demon" to any dimension that you wish to be invaded by the furious elemental demon army.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>damnedMobilization</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_airElemental">
+        <name>Hellspawn Call (Air Elemental)</name>
+        <desc>Summons wisp of the Air element to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_airElemental</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_fireElemental">
+        <name>Hellspawn Call (Fire Elemental)</name>
+        <desc>Summons wisp of the Fire element to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_fireElemental</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_waterElemental">
+        <name>Hellspawn Call (Water Elemental)</name>
+        <desc>Summons wisp of the Water element to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_waterElemental</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_earthElemental">
+        <name>Hellspawn Call (Earth Elemental)</name>
+        <desc>Summons wisp of the Earth element to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_earthElemental</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_shadeElemental">
+        <name>Hellspawn Call (Shade Elemental)</name>
+        <desc>Summons wisp of the Shadow element to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_shadeElemental</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_holyElemental">
+        <name>Hellspawn Call (Holy Elemental)</name>
+        <desc>Summons wisp of the Holy element to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_holyElemental</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_smallEarthGolem">
+        <name>Hellspawn Call (Small Earth Golem)</name>
+        <desc>Summons lesser demon "Small Earth Golem" to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_smallEarthGolem</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_lowerGuardian">
+        <name>Hellspawn Call (Lower Guardian)</name>
+        <desc>Summons demon "Lower Guardian" to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_slowerGuardian</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_iceDemon">
+        <name>Hellspawn Call (Ice Demon)</name>
+        <desc>Summons demon "Ice Demon" to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_iceDemon</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_fallenAngel">
+        <name>Hellspawn Call (Fallen Angel)</name>
+        <desc>Summons a once former angel, demon "Fallen Angel" to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_fallenAngel</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_shade">
+        <name>Hellspawn Call (Shade)</name>
+        <desc>Summons demon "Shade" to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_shade</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_boulderFist">
+        <name>Hellspawn Call (Boulder Fist)</name>
+        <desc>Summons demon "Boulder Fist" to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_boulderFist</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_bileDemon">
+        <name>Hellspawn Call (Bile Demon)</name>
+        <desc>Summons higher demon of Gluttony, "Bile Demon" to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_bileDemon</trigger>
+      </subitem>
+      <subitem id="hellspawnCall_wingedFireDemon">
+        <name>Hellspawn Call (Winged Fire Demon)</name>
+        <desc>Summons higher demon of Wrath, "Winged Fire Demon" to Nether.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>hellspawnCall_wingedFireDemon</trigger>
+      </subitem>
+    </ritual>
+    <ritual id="descentOfTheEnd_overview">
+      <name>Descent of the End</name>
+      <desc>[WIP LORE] These rituals must be preformed in End.</desc>
+      <subitem id="origin_of_knowledge">
+        <name>Origin of Knowledge</name>
+        <desc>[WIP LORE] This one gives #5Grimoire#0.</desc>
+        <relatedEntries>wizardChalk,warding_candle,am2pg:grimoire@0</relatedEntries>
+        <trigger>originOfKnowledge</trigger>
+      </subitem>
+      <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+    </ritual>
+    <ritual id="descentOfTheEnd_overview" mod="Thaumcraft"> <!-->Thaumcraft<!-->
+    <subitem id="eldritchMobilization">
+      <name>Eldritch Missionary Mobilization</name>
+      <desc>Summons the "Crimson Portal" to any dimension that you wish to be invaded by the heretical Crimson Cult.</desc>
+      <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+      <trigger>eldritchMobilization</trigger>
+    </subitem>
+    </ritual>
+    <ritual id="rituals_overview">
+      <subitem id="extend_maximization" old="">
+        <name>Hourglass Ritual (Maximization)</name>
+        <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+        <relatedEntries>wizardChalk</relatedEntries>
+        <ritualName>hourglass</ritualName>
+        <ritualController>Maximization</ritualController>
+      </subitem>
+      <subitem id="tornSpace_overview">
+        <name>Torn Space</name>
+        <desc>[WIP LORE] Lore is upcoming in next update... I hope so...</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>tornSpace</trigger>
+      </subitem>
+      <subitem id="breakthrough_overview">
+        <name>Breakthrough</name>
+        <desc>[WIP LORE] Open chakras idk...</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>breakthrough</trigger>
+      </subitem>
+      <subitem id="target_overview">
+        <name>Bind Ender Mark</name>
+        <desc>Totally binding ender's affinity ability to exact place.</desc>
+        <relatedEntries>wizardChalk,warding_candle</relatedEntries>
+        <trigger>target</trigger>
+      </subitem>
+      <subitem id="impactEvent_overview">
+        <name>Impact Event</name>
+        <desc>Summons Moonstone meteorite. Ritual must be preformed in End, and some entity must be sacrificed.</desc>
+        <relatedEntries>wizardChalk,warding_candle,itemOre@7</relatedEntries>
+        <trigger>impactEvent</trigger>
+      </subitem>
+    </ritual>
+    <ritual id="rituals_overview" mod="Thaumcraft"> <!-->Thaumcraft<!-->
+    <subitem id="extend_fluxdisease" old="">
+      <name>Hourglass Ritual (Flux Disease)</name>
+      <desc>The hourglass ritual can be used to extend a buff to a significantly longer duration.  It adds 180 seconds plus an additional 180 seconds for each Buff Power modifier included in the same spell stage as the buff.</desc>
+      <relatedEntries>wizardChalk</relatedEntries>
+      <ritualName>hourglass</ritualName>
+      <ritualController>FluxDisease</ritualController>
+    </subitem>
+    </ritual>
+  </structures>
+  <bosses>
+    <boss id="PortalDemon" mod="AWWayofTime"> <!-->Blood Magic<!-->
+      <name>Portal Demon</name>
+      <desc>A demon, which is also a portal to the world of wars, which summons a specially trained demonic squad to the battlefield. It requires a special ritual to summon, and when destroyed it drops a white orb of infinity containing knowledge of blood magic. !l Recommended level: Any, just dodge.</desc>
+    </boss>
+  </bosses>
+</compendium>
