@@ -6,6 +6,7 @@
 
 [![Code license (CC BY-NC-ND 3.0)](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-blue.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-nd/3.0)
 [![CurseForge](https://cf.way2muchnoise.eu/title/am2playground.svg)](https://www.curseforge.com/minecraft/mc-mods/am2playground)
+[![Modrinth](https://img.shields.io/modrinth/dt/am2playground?label=Modrinth&logo=Modrinth&style=flat-square)](https://modrinth.com/mod/am2playground)
 
 Public repository for AM2PlayGround (Ars Magica 2 1.7.10 addon) resources: localization, addon issues reports and suggestions
 
