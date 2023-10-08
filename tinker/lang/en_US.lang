@@ -1,0 +1,9 @@
+﻿#tinkers construct
+#items
+item.fluid_buckets.sunstonealloy.name=Molten Sunstone Alloy Bucket
+#metarial
+material.sunstone_alloy=Sunstone Alloy
+material.sunstone_alloy.ability=§cRed Sun
+#liquid
+tile.fluid.molten.sunstonealloy.name=Molten Sunstone Alloy
+fluid.sunstonealloy.molten=Molten Sunstone Alloy
