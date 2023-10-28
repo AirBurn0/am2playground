@@ -35,7 +35,7 @@ Although the license below forbids you to create your work based on mine (becaus
   <b>A</b>: I designed the addon in such a way that it is compatible with almost every version of AM2 I know for this moment. And as far as I know, it is. But since I'n developing my addon based on Mithion's original work, there may be bugs with other versions, and their reporting is appreciated.
 ### <b>Q</b>: With which mods there is an iteration?
 
-  <b>A</b>: For now, it's Thaumcraft and Baubles (by Azanor), Thaumic Tinkerer (by Pixlepix), Forbidden Magic (by SpitefulFox), Blood Magic (by WayofTime), Botania (by Vazkii), Aether-Legacy (by The-Aether-Team), Traveller's Gear (by BluSunrize). Some of compatabilities is more global, like Thaumcraft one, some - less, like Aether one. I'm currently planning Tinker's Construct and Avaritia integration, and maybe more Botania stuff.
+  <b>A</b>: For now, it's Thaumcraft and Baubles (by Azanor), Thaumic Tinkerer (by Pixlepix), Forbidden Magic (by SpitefulFox), Blood Magic (by WayofTime), Botania (by Vazkii), Aether-Legacy (by The-Aether-Team), Traveller's Gear (by BluSunrize), Tinker's Construct (by mDiyo). Some of compatabilities is more global, like Thaumcraft one, some - less, like Aether one. I'm currently planning Avaritia integration, and maybe more Botania stuff.
 ### <b>Q</b>: Why it's incompatable with Alfheim?
 
   <b>A</b>: For now, some of my addon's content works REALLY WIERD with Alfheim, so I decided to... Disable Alfheim.
