@@ -18,7 +18,7 @@ AM2PlayGround, or AM2PG for short, is a quick-made Ars Magica 2 Addon, as far as
 * Make AM2 expirience more funny, arcane, long and less torture.
 
 ## What it does?
-It adds new spell shapes, components, modifiers, some talents, rebalances mechanics (like Clarity - it was broken as hell, for sure. But don't worry, it's still can be used as a 0 mana cost exploit), adding new items and recipes, bring some compatability and integration with my other favorite mods and a lots of other staff that I'm stupidly forget to mention there (or there was some purpose for it not to be mentioned 😉)
+It adds new spell shapes, components, modifiers, some talents, rebalances mechanics (like Clarity - it was broken as hell, for sure. But don't worry, it's still can be used as a 0 mana cost exploit), adding new items and recipes, bring some compatability and integration with my other favorite mods and a lots of other stuff that I'm stupidly forget to mention there (or there was some purpose for it not to be mentioned 😉)
 
 ## What is this repository for?
 This repository, once again, is used for community contributing localization, creating issues and suggestions.
