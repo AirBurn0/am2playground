@@ -171,7 +171,11 @@
     </talent>
     <talent id="ManaRegenArch">
       <name>Mana Regen Arch</name>
-      <desc>[WIP LORE] Just another mana regen upg.</desc>
+      <desc>You almost become one with the magic energy.  Your magic regeneration is very rapid. This replaces the bonus given by Mana Regen Boost III.</desc>
+    </talent>
+    <talent id="ExtraSummon"> <!-- AM2 -->
+      <name>Extra Summon</name>
+      <desc>Why do things yourself when you can have others do them for you?  Now you have three additional summoned/charmed creature or recruited mage (if you have the #5Mage Posse#0 talent).</desc>
     </talent>
   </talents>
   <items>
@@ -198,7 +202,7 @@
       <desc>Invaders from other realms of reality offers you some noticeable magical gears.</desc>
       <subitem id="am2pg:resource@2">
         <name>Moonlight Hide</name>
-        <desc>Unlike Sunstone, moonstone is excellent magic provider and emiter, that has a lot of other usable properties. One of them is an incredibly low weight, most likely due to its cosmic nature. The most logical decision in this situation was to make a fabric out of it, in terms of properties inferior only to living clothes from the blood of the gods.</desc>
+        <desc>Unlike Sunstone, Moonstone is excellent magic provider and emiter, that has a lot of other usable properties. One of them is an incredibly low weight, most likely due to its cosmic nature. The most logical decision in this situation was to make a fabric out of it, in terms of properties inferior only to living clothes from the blood of the gods.</desc>
         <relatedEntries>itemOre@7,essence_refiner</relatedEntries>
       </subitem>
       <subitem id="am2pg:grimoire@0">
@@ -212,6 +216,24 @@
       <relatedEntries>VoidTouch</relatedEntries>
     </item>
   </items>
+  <mechanics>
+    <mechanic id="affinity">
+      <subitem id="life_affinity">
+        <name>Life Affinity</name>
+        <desc>
+          Life affinity causes you to very slowly regenerate additional life.  The regen speed is directly related to your depth.  This regen happens regardless of your hunger level.
+          !d
+          Due to your close ties with life, any time you kill something it makes you sick and nauseated for a while, until you realize the unity of the cycle of life and death.
+          !d
+          The higher your affinity, the more creatures you can summon, charm, or recruit (via #5Mage Posse#0 talent).  Moreover, from a certain moment, the creatures you summon will begin to become stronger than their original vessels, receiving bonuses to health and attack damage. 
+          !d
+          Once you understand the cycle of life and death, you will be allowed to instantly hold the souls of killed creatures back into their own body, forcing them to obey you.
+        </desc>
+        <relatedEntries></relatedEntries>
+      </subitem>
+      <relatedEntries></relatedEntries>
+    </mechanic>
+  </mechanics>
   <structures>
     <ritual id="potionInfusion_overview">
       <name>Alchemical Infusion</name>
