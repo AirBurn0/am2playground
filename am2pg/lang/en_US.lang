@@ -116,6 +116,8 @@ entity.portalDemonEarth.name=Earth Portal Demon
 #creative tabs
 itemGroup.am2pg.baubles=Ars Magica Baubles
 itemGroup.am2pg.compat=Ars Magica Compat
+#easter eggs
+am2pg.summoneasteregg.wolf=Silver Wolf,Kagerou Imaizumi,Momiji Inubashiri,Holo
 #potions
 am2pg.potionnamemissing=Potion of
 Water Breathing.postfix=Potion of Water Breathing
@@ -161,7 +163,7 @@ am2pg.research_text.MOONLIGHTHIDE=Feels like an actual Enderman!
 am2pg.research_page.MOONLIGHTHIDE.1=This material proved to be an extremely good magic emitter and a catalyst for other magical materials.
 am2pg.research_name.CAP_sun=Sunstone Wand Caps
 am2pg.research_text.CAP_sun=Still cheaper than Ichorium.
-am2pg.research_page.CAP_sun.1=Knowing full well that a sunstone alloy is more suitable as a mana capacitor than an emitter or absorber, you simply have no choice - it's the only enough strength characteristics to make a shape of wand caps. And although you understand that you have not fully revealed the potential of the material, but by adding a little purified vinteum, you were able to get caps even better than from more traditional materials, together with two interesting and atypical properties: overcharge, which increases the maximum capacity of any wand by 20%, and a 25% mana discount for those rods that transfer user's mana into vis.
+am2pg.research_page.CAP_sun.1=Knowing full well that a sunstone alloy is more suitable as a mana capacitor than an emitter or absorber, you simply have no choice - it's the only enough strength characteristics to make a shape of wand caps. And although you understand that you have not fully revealed the potential of the material, but by adding a little purified vinteum, you were able to create caps slightly better than gold, but with two interesting and atypical properties: overcharge, which increases the maximum capacity of any wand by 20%, and a 25% mana discount for those rods that transfer user's mana into vis.
 am2pg.research_name.ROD_silverMoon=Moonlight Blessed Silverwood Wand Core
 am2pg.research_text.ROD_silverMoon=I'm My Own Master Now
 am2pg.research_page.ROD_silverMoon.1=§5Silverwood§0 is actually the best magical material for a wand rod available, but it's completely unsuitable for storing raw mana. None of the materials known to thaumaturges are suitable. However, this may not be required - if you, of course, know how to transform mana into vis.<BR>It turned out that §5Moonlight Hide§0, with its alien and magic properties, does an excellent job of this task, just as well as a §5Witchwood§0. The process of creating a staff from these two materials turned out to be disgracefully simple - wrap and twist the material around the rod and do a little magic over magical flows.
@@ -174,7 +176,7 @@ am2pg.research_text.CAP_illusion=When you are not looking at the moon, is it the
 am2pg.research_page.CAP_illusion.1=In fact, making sunstone alloy caps was clearly not the most brilliant idea, but the experience gained as a result of R&D was not in vain - it became clear that with the right choice of materials it was possible to strengthen existing caps, taking them to a whole new level.<BR>By unlocking the full potential of all composite materials, overcharge reaches 100% and mana discount is 75%.
 am2pg.research_name.ROD_illusion=Illusion Charmed Silverwood Wand Core
 am2pg.research_text.ROD_illusion=To fool others, first you must fool yourself
-am2pg.research_page.ROD_illusion.1=Okay, now let's just wrap this rod with §6Ichorcloth§0, and hope that it will adapt and enhance the properties of the rod even more. In the worst case, we'll just lose some fabric. In the best, we will get a rod of unprecedented strength.<LINE>Wand core stores up to 2500 vis, which it replenishes once per 0.5 seconds, at the rate of 500 mana per 5 vis.
+am2pg.research_page.ROD_illusion.1=Okay, now let's just wrap this rod with §6Ichorcloth§0, and hope that it will adapt and enhance the properties of the rod even more. In the worst case, we'll just lose some fabric. In the best, we will get a rod of unprecedented strength.<LINE>Wand core stores up to 2500 vis, which it replenishes once per 0.5 seconds, at the rate of 250 mana per 2.5 vis.
 am2pg.research_name.WARPAMULET=Amulet of Warped Will
 am2pg.research_text.WARPAMULET=Library of Ruina is kinda scary...
 am2pg.research_page.WARPAMULET.1=Burnout is a very usual thing in magi practice, and unfortunately, there are not many means to combat mental fatigue. Think about it - frequent use of spells can quickly warp your mind! But hey, if it helps you use your spells more effectively, why not?<LINE>The idea of the artifact is simple: with a little processing and artificial stimulation of the §5Zombie Brain§0, §4Burnout§0 can be easily converted into §5Temporary Warp§0 in the most efficient way possible!
@@ -197,3 +199,5 @@ am2pg.research_page.OUTERDAMAGE.1=Now you able to preform the Outer Damage spell
 am2pg.research_name.ELDRITCHMIND=Eldritch Mind
 am2pg.research_text.ELDRITCHMIND=Turns your mental problems into a power
 am2pg.research_page.ELDRITCHMIND.1=Now you able to preform the Eldritch Mind spell.
+#botania
+item.botania:grassSeeds32767.name=Any Pasture Seeds

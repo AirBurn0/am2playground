@@ -21,9 +21,12 @@ am2.spell.trigger=Trigger
 am2.spell.song=Song
 am2.spell.randomdamage=Random Damage
 am2.spell.maximization=Maximization
+am2.spell.fireworks=Fireworks
 am2.spell.blooddevastation=Blood Devastation
 am2.spell.outerdamage=Outer Damage
 am2.spell.fluxdisease=Flux Disease
+am2.spell.fertilize=Fertilize
+am2.spell.pumpkifiction=Pumpkifiction
 #modifiers
 am2.spell.sacrament=Sacrament
 am2.spell.manareduction=Mana Reduction
@@ -43,6 +46,11 @@ am2.spell.etheriumchannels=Etherium Channels
 am2.spell.advancedspellscribing=Advanced Spellscribing
 #chat
 am2.affinity.enderTPFailed=Oopsie...
+am2.affinity.life.summoner=Additional Summons
+am2.affinity.life.strongerallies=Stronger Allies
+am2.affinity.life.necromancer=Necromantic
+am2.affinity.fire.harad=Haradrim
+am2.affinity.ice.forod=Snowmen of Forochel
 #imbuements
 am2.tooltip.afd=Additional Fire Damage
 am2.tooltip.lhr=Reaper's Autumn
