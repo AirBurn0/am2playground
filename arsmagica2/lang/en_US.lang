@@ -43,6 +43,11 @@ am2.spell.etheriumchannels=Etherium Channels
 am2.spell.advancedspellscribing=Advanced Spellscribing
 #chat
 am2.affinity.enderTPFailed=Oopsie...
+am2.affinity.life.summoner=Additional Summons
+am2.affinity.life.strongerallies=Stronger Allies
+am2.affinity.life.necromancer=Necromantic
+am2.affinity.fire.harad=Haradrim
+am2.affinity.ice.forod=Snowmen of Forochel
 #imbuements
 am2.tooltip.afd=Additional Fire Damage
 am2.tooltip.lhr=Reaper's Autumn
