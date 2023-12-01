@@ -25,14 +25,36 @@ This repository, once again, is used for community contributing localization, cr
 
 Although the license below forbids you to create your work based on mine (because I simply don’t see the point in this - just ask me to do it, and if I ever abandon the project, I will just change the license so you will allowed to), creating new localization files (.lang) and textures is not derived from my work (if it is, consider that you have rights to it), and generally very welcome.
 
+## Known AM2 forks compatibility status:
+###  <b>[Ars Magica 2 by Mithion](https://github.com/Mithion/ArsMagica2)</b>
+Good-old original ~~bugs~~ mod.
+
+Only v1.4.0.009 (latest) is supported;
+
+###  <b>[Ars Magica 2.5 LTS by TCLProject](https://github.com/TCLProject/ArsMagica2-5)</b> 
+Most canonical sequel with some old bugs fixed and brand-new added.
+
+Only from v1.6.5 (corresponding AM2PG version is v0.11.0) to v1.6.7 (latest) is supported;
+
+###  <b>[Ars Magica 2 by ToCraft](https://github.com/ToCraft/ArsMagica2)</b> 
+Contains built-in integration with LotR mod, some new spell grammar (shapes, components, modifiers), and some new config options.
+
+Only v1.4.1.001 is supported, also see Ars Magica 2 by kutschkem;
+
+###  <b>[Ars Magica 2 by kutschkem](https://github.com/kutschkem/ArsMagica2)</b>
+Adds all content from ToCraft's fork and [something](https://github.com/kutschkem/ArsMagica2/releases/tag/v1.4.1.002) else as well.
+
+Only v1.4.1.002 (latest) is supported (it's the only existing version);
+
+###  <b>[Ars Magica 2 LE by DrParadox7](https://github.com/DrParadox7/ArsMagica2)</b>
+Used in the Lost Era Modpack (what?).
+
+Not supported, but will be considered as a Mithion version and should work fine.
+
 ## Other FAQ
 ### <b>Q</b>: Where is the source-code? Is the project not open-source?
 
   <b>A</b>: The fact is that I messed up the code a lot, and without refactoring it seems unreadable and even can offend someone (I shouldn't have added jokes to the code). When I'm done with the refactoring, I'll release the project's source code to this repository. But until then, the project is not open source. You can still decompile the sources at your own risk (to see the code that even worse than in original AM2 repo) if you're interested.
-  
-### <b>Q</b>: Is it compatible with other AM2 forks like [TCLProject](https://github.com/TCLProject/ArsMagica2-5) or [ToCraft](https://github.com/ToCraft/ArsMagica2) ones?
-
-  <b>A</b>: I designed the addon in such a way that it is compatible with almost every version of AM2 I know for this moment. And as far as I know, it is. But since I'n developing my addon based on Mithion's original work, there may be bugs with other versions, and their reporting is appreciated.
 ### <b>Q</b>: With which mods there is an iteration?
 
   <b>A</b>: For now, it's Thaumcraft and Baubles (by Azanor), Thaumic Tinkerer (by Pixlepix), Forbidden Magic (by SpitefulFox), Blood Magic (by WayofTime), Botania (by Vazkii), Aether-Legacy (by The-Aether-Team), Traveller's Gear (by BluSunrize), Tinker's Construct (by mDiyo). Some of compatabilities is more global, like Thaumcraft one, some - less, like Aether one. I'm currently planning Avaritia integration, and maybe more Botania stuff.
