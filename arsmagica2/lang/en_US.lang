@@ -21,9 +21,12 @@ am2.spell.trigger=Trigger
 am2.spell.song=Song
 am2.spell.randomdamage=Random Damage
 am2.spell.maximization=Maximization
+am2.spell.fireworks=Fireworks
 am2.spell.blooddevastation=Blood Devastation
 am2.spell.outerdamage=Outer Damage
 am2.spell.fluxdisease=Flux Disease
+am2.spell.fertilize=Fertilize
+am2.spell.pumpkifiction=Pumpkifiction
 #modifiers
 am2.spell.sacrament=Sacrament
 am2.spell.manareduction=Mana Reduction
