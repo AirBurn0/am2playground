@@ -93,7 +93,7 @@ Not supported, but will be considered as a Mithion version and should work fine.
 
   <b>A</b>: Yeah, lots of them, exactly like in any other mod, if not more. It's no secret that AM2 is buggy as hell, and in general... I'm fine with it.
   Most of the bugs like chronodispel or more funny ones like 42 prosperity spell, for me now it's more of a gameplay feature than anything else.
-  Dupes with a book and other bugs that obviously kill interest in the game are not, but what does not work well in AM2 - most likely does not work well in addon either, becouse of AM2 API and my <b>skill issue</b>.
+  Dupes with a book and other bugs that obviously kill interest in the game are not, but what does not work well in AM2 - most likely does not work well in addon either, because of AM2 API and my <b>skill issue</b>.
 
   But btw, I fixed some of AM2 built-in bugs (you will never figure out which ones, for sure).
 ### <b>Q</b>: Will you port it on newer minecraft versions?
