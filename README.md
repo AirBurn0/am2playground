@@ -37,7 +37,7 @@ Most canonical sequel with some old bugs fixed and brand-new added.
 Only from v1.6.5 (corresponding AM2PG version is v0.11.0) to v1.6.7 (latest) is supported;
 
 ###  <b>[Ars Magica 2 by ToCraft](https://github.com/ToCraft/ArsMagica2)</b> 
-Contains built-in integration with LotR mod, some new spell grammar (shapes, components, modifiers), and some new config options.
+Contains built-in integration with LotR mod, some new spell parts (shapes, components, modifiers), and some new config options.
 
 Only v1.4.1.001 is supported, also see Ars Magica 2 by kutschkem;
 
@@ -49,7 +49,7 @@ Only v1.4.1.002 (latest) is supported (it's the only existing version);
 ###  <b>[Ars Magica 2 LE by DrParadox7](https://github.com/DrParadox7/ArsMagica2)</b>
 Used in the Lost Era Modpack (what?).
 
-Not supported, but will be considered as a Mithion version and should work fine.
+Not supported, but will be considered as a Mithion/TCLProject version and should work fine.
 
 ## Other FAQ
 ### <b>Q</b>: Where is the source-code? Is the project not open-source?
@@ -62,7 +62,7 @@ Not supported, but will be considered as a Mithion version and should work fine.
 
   <b>A</b>: For now, some of my addon's content works REALLY WIERD with Alfheim, so I decided to... Disable Alfheim.
   Will I ever fix it? Who knows. I don't see the way of it for now. 
-  If you wish to play with Alfheim, my only recommendation here - remove addon from mods folder (not a big loss, really).
+  If you wish to play with Alfheim, my only recommendation here - remove my addon from mods folder (not a big loss, really).
 ### <b>Q</b>: Can you make an integration for X?
 
   <b>A</b>: As long as it's not an Alfheim, and mod is intresting enough - sure. There is one problem tho - if I haven't integrated with X yet, and didn't plan to, then I simply don't know about the existence of this mod, or about what specific content needs to be added so that playing with AM2 and X can be more fun.
@@ -76,7 +76,7 @@ Not supported, but will be considered as a Mithion version and should work fine.
 
   If it's idea suggestion - create a new issue with detailed information about what do you want me to add (what's it, how it must work, etc.), and why must I actually spent my time doing it instead of adding something else. Resources like models and textures if you wanted something complex is appreciated as well.
   
-  If you are to young for github or your intentions cannot be carried out with it, contact me in a way that is accessible to you (I have some social networks but you must figure them out by yourself).
+  If you are too young for github or your intentions cannot be carried out with it, contact me in a way that is accessible for you (I have some social networks but you must figure them out by yourself).
 ### <b>Q</b>: Is it gameplay-balanced?
 
   <b>A</b>: No.
@@ -92,13 +92,13 @@ Not supported, but will be considered as a Mithion version and should work fine.
 ### <b>Q</b>: Are there any bugs?
 
   <b>A</b>: Yeah, lots of them, exactly like in any other mod, if not more. It's no secret that AM2 is buggy as hell, and in general... I'm fine with it.
-  Most of the bugs like chronodispel or more funny ones like 42 prosperity spell, for me now it's more of a gameplay feature than anything else.
-  Dupes with a book and other bugs that obviously kill interest in the game are not, but what does not work well in AM2 - most likely does not work well in addon either, because of AM2 API and my <b>skill issue</b>.
+  Most of the bugs like chrono-dispel or more funny ones like 42 prosperity spell, for me now it's more of a gameplay feature than anything else.
+  Dupes with a book and other bugs that obviously kills all the interest in the game aren't, but what does not work well in AM2 - most likely does not work well in addon either, because of AM2 API and my <b>skill issue</b>.
 
   But btw, I fixed some of AM2 built-in bugs (you will never figure out which ones, for sure).
 ### <b>Q</b>: Will you port it on newer minecraft versions?
 
-  <b>A</b>: To date, a relatively stable and canon version of AM2 exists only on 1.7.10. AM2 1.10.2 - not canon and WAAAAAY more bugged than AM2 on 1.7.10 version. It's just unplayable for me. There is Ars Magica Legacy on 1.18.0 minecraft version and above, but so far it's still even worse than on 1.10.2 version. So technically, I just have nowhere to port the addon, and my answer is NO, untill they make it playable enough.
+  <b>A</b>: To date, a relatively stable and canon version of AM2 exists only on 1.7.10. AM2 1.10.2 - not canon and WAAAAAY more bugged than AM2 on 1.7.10 version. It's just unplayable for me. There is Ars Magica Legacy on 1.18.0 minecraft version and above,but it is not finished yet and much more effort is needed to make at least at the level at which AM2 already was in 2014. So technically, I just have nowhere to port the addon, and my answer is NO, untill they make it playable enough.
 ### <b>Q</b>: What is your favorite Minecraft 1.7.10 magic mod?
 
   <b>A</b>: Ars Magica 2. I guess it was obvious.
