@@ -26,30 +26,44 @@ This repository, once again, is used for community contributing localization, cr
 Although the license below forbids you to create your work based on mine (because I simply don’t see the point in this - just ask me to do it, and if I ever abandon the project, I will just change the license so you will allowed to), creating new localization files (.lang) and textures is not derived from my work (if it is, consider that you have rights to it), and generally very welcome.
 
 ## Known AM2 forks compatibility status:
-###  <b>[Ars Magica 2 by Mithion](https://github.com/Mithion/ArsMagica2)</b>
-Good-old original ~~bugs~~ mod.
 
-Only v1.4.0.009 (latest) is supported;
+### Mithion forks-family
+* ###  <b>[Ars Magica 2 by Mithion](https://github.com/Mithion/ArsMagica2)</b>
+  Good-old original ~~bugs~~ mod.
 
-###  <b>[Ars Magica 2.5 LTS by TCLProject](https://github.com/TCLProject/ArsMagica2-5)</b> 
-Most canonical sequel with some old bugs fixed and brand-new added.
+  Only v1.4.0.009 (latest) is supported;
+  
+### TCLProject forks-family
+* ###  <b>[Ars Magica 2.5 LTS by TCLProject](https://github.com/TCLProject/ArsMagica2-5)</b> 
+  Most canonical sequel with some old bugs fixed and brand-new added.
 
-Only from v1.6.5 (corresponding AM2PG version is v0.11.0) to v1.6.7 (latest) is supported;
+  Only from v1.6.5 (corresponding AM2PG version is v0.11.0) to v1.6.7 (latest) is supported;
 
-###  <b>[Ars Magica 2 by ToCraft](https://github.com/ToCraft/ArsMagica2)</b> 
-Contains built-in integration with LotR mod, some new spell parts (shapes, components, modifiers), and some new config options.
+* ###  <b>[Ars Magica 2.5 LE by DrParadox7](https://github.com/DrParadox7/ArsMagica2)</b>
+  Currently based on TCLProject fork. Used in the Lost Era Modpack (what?).
 
-Only v1.4.1.001 is supported, also see Ars Magica 2 by kutschkem;
+  v1.6.9-LE will be considered as TCLProject version and should work fine. 
 
-###  <b>[Ars Magica 2 by kutschkem](https://github.com/kutschkem/ArsMagica2)</b>
-Adds all content from ToCraft's fork and [something](https://github.com/kutschkem/ArsMagica2/releases/tag/v1.4.1.002) else as well.
+* ###  <b>[Ars Magica 2.5 RE by RubilaxXxx](https://github.com/RubilaxXxx/ArsMagica2-5)</b>
+  Based on DrParadox7 fork, but implements some fixes and reworks how Magic Resistance works. Also removes bosses damage softcap to make battles more (or less lmao) fair.
 
-Only v1.4.1.002 (latest) is supported (it's the only existing version);
+  v1.6.9-RE will be considered as TCLProject version and should work fine.
 
-###  <b>[Ars Magica 2 LE by DrParadox7](https://github.com/DrParadox7/ArsMagica2)</b>
-Used in the Lost Era Modpack (what?).
+* ###  <b>[Ars Magica 2.5 BE by brandyyn](https://github.com/brandyyn/Voids-Rift/releases/tag/ArsMagica2.5)</b>
+  Based on TCLProject fork, but implements some fixes and disables native way to fill Crystal Phylactery (for FPS improvements).
 
-Not supported, but will be considered as a Mithion/TCLProject version and should work fine.
+  v1.7-BE.FX will be considered as TCLProject version and should work fine, otherwise brandyyn will crash and I'll go fix that.
+
+### ToCraft forks-family
+* ###  <b>[Ars Magica 2 by ToCraft](https://github.com/ToCraft/ArsMagica2)</b> 
+  Contains built-in integration with LotR mod, some new spell parts (shapes, components, modifiers), and some new config options.
+
+  Only v1.4.1.001 is supported, for nevest versions see Ars Magica 2 by kutschkem;
+
+* ###  <b>[Ars Magica 2 by kutschkem](https://github.com/kutschkem/ArsMagica2)</b>
+  Adds all content from ToCraft's fork and [something](https://github.com/kutschkem/ArsMagica2/releases/tag/v1.4.1.002) else as well.
+
+  Versions from v1.4.1.002 to v1.4.1.003 is supported;
 
 ## Other FAQ
 ### <b>Q</b>: Where is the source-code? Is the project not open-source?
@@ -98,7 +112,7 @@ Not supported, but will be considered as a Mithion/TCLProject version and should
   But btw, I fixed some of AM2 built-in bugs (you will never figure out which ones, for sure).
 ### <b>Q</b>: Will you port it on newer minecraft versions?
 
-  <b>A</b>: To date, a relatively stable and canon version of AM2 exists only on 1.7.10. AM2 1.10.2 - not canon and WAAAAAY more bugged than AM2 on 1.7.10 version. It's just unplayable for me. There is Ars Magica Legacy on 1.18.0 minecraft version and above,but it is not finished yet and much more effort is needed to make at least at the level at which AM2 already was in 2014. So technically, I just have nowhere to port the addon, and my answer is NO, untill they make it playable enough.
+  <b>A</b>: To date, a relatively stable and canon version of AM2 exists only on 1.7.10. AM2 1.10.2 - not canon and WAAAAAY more bugged than AM2 on 1.7.10 version. It's just unplayable for me. There is Ars Magica Legacy on 1.18.0+ Minecraft versions, but it is not finished yet and much more effort is needed to make it at least at the level at which AM2 already was in 2014. So technically, I just got nowhere to port the addon, and my answer is NO, until they make it playable enough.
 ### <b>Q</b>: What is your favorite Minecraft 1.7.10 magic mod?
 
   <b>A</b>: Ars Magica 2. I guess it was obvious.
@@ -126,6 +140,7 @@ Under the following conditions:
 * NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
 * No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-Original mod is courtesy of Mithion with sources available at https://github.com/Mithion/ArsMagica2, and modified version AM2.5 is courtesy of TCLProject with sources available at https://github.com/TCLProject/ArsMagica2-5.
+Original mod is courtesy of Mithion with sources available at https://github.com/Mithion/ArsMagica2;
+Modified version AM2.5 is courtesy of TCLProject with sources available at https://github.com/TCLProject/ArsMagica2-5.
 
 The exceptions to this license are textures and models, wich are courtesy of opengameart.com, and licenses are that of their respective owners.
