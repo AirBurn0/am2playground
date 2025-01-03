@@ -1,0 +1,25 @@
+﻿#book
+witchery.am2pg.spellbook.info={lWitchcraft:|{r{oSorcery|{rWitchery & AM2 Cross-Compat Spellbook.|Contains all the spells you have bound. To bind spell, preform the Rite of Spell Binding, and then draw any symbols with which you want to cast the spell.
+#ritials
+witchery.am2pg.rite.bindSpell=Rite of Spell Binding{r||Binds an AM2 spell to players. Draw symbols using Mystic Branch to bind spell after Ritual ends.
+witchery.am2pg.rite.infusionmana=Rite of Infusion{r||You must stand in the circle.
+#brews
+witchery:brew.am2pg.dispersal.pool=Pool
+witchery:brew.am2pg.elementalHarmMagic=Magic Damage
+witchery:brew.am2pg.elementalHarmPhysic=Physical Damage
+witchery:brew.am2pg.elementalHarmAir=Air Damage
+witchery:brew.am2pg.elementalHarmFire=Fire Damage
+witchery:brew.am2pg.elementalHarmWater=Water Damage
+witchery:brew.am2pg.elementalHarmNature=Nature Damage
+witchery:brew.am2pg.elementalHarmIce=Ice Damage
+witchery:brew.am2pg.elementalHarmLightning=Lightning Damage
+witchery:brew.am2pg.elementalHarmHoly=Holy Damage
+witchery:brew.am2pg.elementalHarmEnder=Ender Damage
+witchery:brew.am2pg.elementalHarmVoid=Void Damage
+witchery:brew.am2pg.manaRegen=Mana Regeneration
+witchery:brew.am2pg.burnoutReduction=Burnout Reduction
+witchery:brew.am2pg.manaBoost=Mana Boost
+witchery:brew.am2pg.XPBoost=Magic XP Boost
+#symbols
+witchery.pott.dh.portus=Portus
+witchery.pott.dh.portus.info=It's kinda from a different game... but okay.|Inflicts a temporary distortion on the wearer or target.
