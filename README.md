@@ -42,7 +42,7 @@ Although the license below forbids you to create your work based on mine (becaus
 * ###  <b>[Ars Magica 2.5 LE by DrParadox7](https://github.com/DrParadox7/ArsMagica2)</b>
   Currently based on TCLProject fork. Used in the Lost Era Modpack (what?).
 
-  v1.6.9-LE will be considered as TCLProject version and should work fine. 
+  v1.6.9-LE will be considered as TCLProject version and should work fine, but later versions [may not work](https://github.com/AirBurn0/am2playground/issues/30#issuecomment-2657529188).
 
 * ###  <b>[Ars Magica 2.5 RE by RubilaxXxx](https://github.com/RubilaxXxx/ArsMagica2-5)</b>
   Based on DrParadox7 fork, but implements some fixes and reworks how Magic Resistance works. Also removes bosses damage softcap to make battles more (or less lmao) fair.
