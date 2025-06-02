@@ -15,15 +15,10 @@ Public repository for AM2PlayGround (Ars Magica 2 1.7.10 addon) resources: local
 AM2PlayGround, or AM2PG for short, is a quick-made Ars Magica 2 Addon, as far as I know, fisrt of any among its own (Ima adding spell components, dude. New spell components!) (except [this](https://github.com/Mithion/APIDemoMod) thing; This is made along before I made my own, but as far as you can see - it has no use)
 
 ### Main and only goal of this addon:
-* Make AM2 expirience more funny, arcane, long and less torture.
+* Make __AM2__ expirience nicer (more funny, arcane, long and less torture).
 
 ## What it does?
 It adds new spell shapes, components, modifiers, some talents, rebalances mechanics (like Clarity - it was broken as hell, for sure. But don't worry, it's still can be used as a 0 mana cost exploit), adding new items and recipes, bring some compatability and integration with my other favorite mods and a lots of other stuff that I'm stupidly forget to mention there (or there was some purpose for it not to be mentioned 😉)
-
-## What is this repository for?
-This repository, once again, is used for community contributing localization, creating issues and suggestions.
-
-Although the license below forbids you to create your work based on mine (because I simply don’t see the point in this - just ask me to do it, and if I ever abandon the project, I will just change the license so you will allowed to), creating new localization files (.lang) and textures is not derived from my work (if it is, consider that you have rights to it), and generally very welcome.
 
 ## Known AM2 forks compatibility status:
 
@@ -65,22 +60,17 @@ Although the license below forbids you to create your work based on mine (becaus
 
   Versions from v1.4.1.002 to v1.4.1.003 is supported;
 
-## Other FAQ
+## FAQ
 ### <b>Q</b>: Where is the source-code? Is the project not open-source?
 
-  <b>A</b>: The fact is that I messed up the code a lot, and without refactoring it seems unreadable and even can offend someone (I shouldn't have added jokes to the code). When I'm done with the refactoring, I'll release the project's source code to this repository. But until then, the project is not open source. You can still decompile the sources at your own risk (to see the code that even worse than in original AM2 repo) if you're interested.
+  <b>A</b>: Someday I'll upload source code to this repository. Or maybe not. As for now, this project __IS NOT__ open source! You can still decompile the sources at your own risk (to see the code that even worse than in original AM2 repo) if you're interested, but not allowed to steal or make any changes to it.
 ### <b>Q</b>: With which mods there is an iteration?
 
-  <b>A</b>: For now, it's Thaumcraft and Baubles (by Azanor), Thaumic Tinkerer (by Pixlepix), Forbidden Magic (by SpitefulFox), Blood Magic (by WayofTime), Botania (by Vazkii), Aether-Legacy (by The-Aether-Team), Traveller's Gear (by BluSunrize), Tinker's Construct (by mDiyo). Some of compatabilities is more global, like Thaumcraft one, some - less, like Aether one. I'm currently planning Avaritia integration, and maybe more Botania stuff.
-### <b>Q</b>: Why it's incompatable with Alfheim?
-
-  <b>A</b>: For now, some of my addon's content works REALLY WIERD with Alfheim, so I decided to... Disable Alfheim.
-  Will I ever fix it? Who knows. I don't see the way of it for now. 
-  If you wish to play with Alfheim, my only recommendation here - remove my addon from mods folder (not a big loss, really).
+  <b>A</b>: For now, it's Thaumcraft and Baubles (by Azanor), Thaumic Tinkerer (by Pixlepix), Forbidden Magic and Avaritia (by SpitefulFox), Blood Magic (by WayofTime), Botania (by Vazkii), Aether-Legacy (by The-Aether-Team), Traveller's Gear (by BluSunrize), Tinker's Construct (by mDiyo), Witchery (by Emoniph), and some other minor stuff. Some of compatabilities is more global, like Thaumcraft one, some - less, like Aether one.
 ### <b>Q</b>: Can you make an integration for X?
 
   <b>A</b>: As long as it's not an Alfheim, and mod is intresting enough - sure. There is one problem tho - if I haven't integrated with X yet, and didn't plan to, then I simply don't know about the existence of this mod, or about what specific content needs to be added so that playing with AM2 and X can be more fun.
-### <b>Q</b>: I have a localization file/bug report/idea to suggest, what must I do?
+### <b>Q</b>: I have a localization file/bug report/idea to suggest, what should I do?
 
   <b>A</b>:
 
@@ -91,12 +81,6 @@ Although the license below forbids you to create your work based on mine (becaus
   If it's idea suggestion - create a new issue with detailed information about what do you want me to add (what's it, how it must work, etc.), and why must I actually spent my time doing it instead of adding something else. Resources like models and textures if you wanted something complex is appreciated as well.
   
   If you are too young for github or your intentions cannot be carried out with it, contact me in a way that is accessible for you (I have some social networks but you must figure them out by yourself).
-### <b>Q</b>: Is it gameplay-balanced?
-
-  <b>A</b>: No.
-### <b>Q</b>: Did you think twice before making this addon?
-
-  <b>A</b>: Think twice? Man, I don't even think once.
 ### <b>Q</b>: Can I use it on my server?
 
   <b>A</b>: Okay, listen here: at the bottom, is the license, and it clearly says that you cannot earn income with my addon, and also you cannot recompile its sources to suit your needs, and this means that <b>IF</b> you start a public server with some commercial targets or even donation function, only answer that I can give you is <b>NO</b>. But if you just open a local server to throw some Random Damage spell at faces of your friends - well, I won't know about it anyway.
@@ -113,6 +97,15 @@ Although the license below forbids you to create your work based on mine (becaus
 ### <b>Q</b>: Will you port it on newer minecraft versions?
 
   <b>A</b>: To date, a relatively stable and canon version of AM2 exists only on 1.7.10. AM2 1.10.2 - not canon and WAAAAAY more bugged than AM2 on 1.7.10 version. It's just unplayable for me. There is Ars Magica Legacy on 1.18.0+ Minecraft versions, but it is not finished yet and much more effort is needed to make it at least at the level at which AM2 already was in 2014. So technically, I just got nowhere to port the addon, and my answer is NO, until they make it playable enough.
+### <b>Q</b>: when it will be compatable with Alfheim?
+
+  <b>A</b>: Not today.
+### <b>Q</b>: Is it gameplay-balanced?
+
+  <b>A</b>: No.
+### <b>Q</b>: Did you think twice before making this addon?
+
+  <b>A</b>: Think twice? Man, I don't even think once.
 ### <b>Q</b>: What is your favorite Minecraft 1.7.10 magic mod?
 
   <b>A</b>: Ars Magica 2. I guess it was obvious.
